@@ -158,6 +158,7 @@ JavaScript bomidi uni orniga bza norm til qldi Js di sozlani ornga mawulani iwla
 | `skoriPomosh.uyaqqaBuyaqqa` | `classList.toggle` |
 | `skoriPomosh.keldi`         | `classList.add`    |
 | `skoriPomosh.ketti`         | `classList.remove` |
+| `fokusMokusKorsat`          | `addEventListener` |
 
 ### Development
 

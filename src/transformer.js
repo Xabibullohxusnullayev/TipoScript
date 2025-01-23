@@ -61,6 +61,7 @@ function transformCode(code) {
     "skoriPomosh.uyaqqaBuyaqqa": "classList.toggle",
     "skoriPomosh.keldi": "classList.add",
     "skoriPomosh.ketti": "classList.remove",
+    fokusMokusKorsat: "addEventListener",
     // coming soon...
   };
 
