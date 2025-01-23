@@ -57,10 +57,11 @@ function transformCode(code) {
     uxlat: "querySelector",
     polniyUxlat: "querySelectorAll",
     pasportUxlat: "getElementById",
-    skoriPomosh: "classList",
-    "skoriPomosh.uyaqqaBuyaqqa": "classList.toggle",
-    "skoriPomosh.keldi": "classList.add",
-    "skoriPomosh.ketti": "classList.remove",
+    skoriPomosh: {
+      uyaqqaBuyaqqa: "classList.toggle",
+      keldi: "classList.add",
+      ketti: "classList.remove",
+    },
     fokusMokusKorsat: "addEventListener",
     // coming soon...
   };
@@ -68,8 +69,15 @@ function transformCode(code) {
   // transform code using replacements
   let transformedCode = code;
   for (const [oldWord, newWord] of Object.entries(replacements)) {
-    const regex = new RegExp(`\\b${oldWord}\\b`, "g");
-    transformedCode = transformedCode.replace(regex, newWord);
+    if (typeof newWord === "object") {
+      for (const [nestedOldWord, nestedNewWord] of Object.entries(newWord)) {
+        const regex = new RegExp(`\\b${oldWord}\\.${nestedOldWord}\\b`, "g");
+        transformedCode = transformedCode.replace(regex, nestedNewWord);
+      }
+    } else {
+      const regex = new RegExp(`\\b${oldWord}\\b`, "g");
+      transformedCode = transformedCode.replace(regex, newWord);
+    }
   }
 
   return transformedCode;
