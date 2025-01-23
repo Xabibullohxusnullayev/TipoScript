@@ -1,3 +1,3 @@
-for(let i = 0; i<=100; i++){
-    console.log("PULIMMI QACHON BERASAN?")
+for (let i = 0; i <= 100; i++) {
+  console.log("PULIMMI QACHON BERASAN?");
 }
