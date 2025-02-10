@@ -138,10 +138,10 @@ JavaScript bomidi uni orniga bza norm til qldi Js di sozlani ornga mawulani iwla
 | `cheksizli`                 | `Infinity`         |
 | `ha`                        | `true`             |
 | `yoq`                       | `false`            |
-| `qachonki`                  | `while`            |
-| `korsat`                    | `console.log`      |
-| `ogohlantr`                 | `console.warn`     |
-| `xato`                      | `console.error`    |
+| `bankomat.qachonki`         | `while`            |
+| `bankomat.korsat`           | `console.log`      |
+| `bankomat.ogohlantr`        | `console.warn`     |
+| `bankomat.xato`             | `console.error`    |
 | `ot`                        | `throw`            |
 | `Xato`                      | `Error`            |
 | `uzunli`                    | `length`           |
