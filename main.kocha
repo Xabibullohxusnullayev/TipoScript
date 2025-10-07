@@ -1,0 +1,10 @@
+yanami pstaBomi() {
+  agar (psta) {
+    korsat("Pstadan ber!");
+  } bomasa {
+    korsat("aldama!");
+    ur();
+  }
+}
+
+pstaBomi();

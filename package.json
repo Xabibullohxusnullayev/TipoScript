@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "B1lol-dev",
+  "author": "Xabibulloh_web",
   "license": "MIT",
   "description": "Rostakammi bolla uchun til",
   "devDependencies": {
@@ -23,10 +23,7 @@
     }
   },
   "dependencies": {
-    "chokidar": "^4.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/b1lol-dev/kochascript.git"
+    "chokidar": "^4.0.3",
+    "kochascript": "^0.1.6"
   }
 }

@@ -10,7 +10,7 @@ const watch = process.argv.includes("-w") || process.argv.includes("--watch"); /
 const help = process.argv.includes("-h") || process.argv.includes("--help"); // help
 
 if (!filePath) {
-  console.error("Aqilli file qani");
+  console.error("Aqlli file qani");
   process.exit(1);
 }
 
