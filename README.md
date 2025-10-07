@@ -1,6 +1,6 @@
-# KochaScript
+# TipoScript - kochascript
 
-KochaScript — Dasturlashdan Chiqila
+TipoScript — Dasturlashdan Chiqila
 
 ### Ornatw
 
@@ -11,7 +11,7 @@ KochaScript — Dasturlashdan Chiqila
    npm install kochascript -g
    ```
 
-3. yoki kochscript ti faqat ozissi proyektizga qowin:
+3. yoki kochascript ti faqat ozissi proyektizga qowin:
    ```bash
    npm install kochascript
    ```
@@ -171,3 +171,4 @@ Licenziya blmima lekn barbr nmadur yoqib qoyaman MIT. [LICENSE](LICENSE) bla-bla
 ### Repository
 
 https://github.com/B1lol-dev/kochascript
+
